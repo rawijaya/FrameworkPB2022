@@ -97,7 +97,7 @@ forward prototypes
 public function integer of_checkdata ()
 end prototypes
 
-public function integer of_checkdata ();//Check "Email Server Settings" and "Email To"
+public function integer of_checkdata ();//Check "Email Server Settings" and "Email To" PUTU
 
 If str_email.ls_server = "" Then
 	Messagebox('Email','You must specify Server in the Server Settings window.' ,Exclamation!, OK! )

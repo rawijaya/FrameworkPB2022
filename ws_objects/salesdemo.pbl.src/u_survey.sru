@@ -24,7 +24,7 @@ forward prototypes
 public subroutine of_survey (string as_company)
 end prototypes
 
-public subroutine of_survey (string as_company);Integer 			li_rtn, li_fieldid, i 
+public subroutine of_survey (string as_company);Integer 			li_rtn, li_fieldid, i //PUTU
 Date				ld_date, ld_date1
 Boolean 			lbn_flag, lb_rtn
 String			ls_data, ls_item[], ls_table1[], ls_table2[], ls_commboitem[], ls_itemText
