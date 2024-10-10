@@ -52,7 +52,7 @@ ls_data ='\pard\brdrt\brdrs\brdrw10\brsp20\brdrcf0\brdrbtw\brdrs\brdrw10\brsp20\
 rte_1.pastertf("{\rtf1"+ls_data+"\par}", Detail!)
 
 ls_data =space(60) 
-rte_1.pastertf("{\rtf1\fs24\ "+ls_data+"}", Detail!)
+rte_1.pastertf("{\rtf1\fs24\ "+ls_data+"}", Detail!) ///ghjsdhahfdghasfghdasghfg
 For i = 1 To 5
 	li_fieldid = rte_1.FormCheckBoxInsert( False)
 	ls_data = String(i) +space(12) 
